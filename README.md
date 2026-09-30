@@ -46,6 +46,9 @@ This pipeline addresses two primary noise sources:
    ```bash
    python preprocess.py
    ```
+   
+## Expected Output
+After running the script, the pipeline generates `eeg_filtered_sample.png`, which illustrates the successful removal of power-line interference (50Hz) and the preservation of the Alpha rhythm.
 
 ---
 
